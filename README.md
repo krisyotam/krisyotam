@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&pause=1000&vCenter=true&width=670&lines=hi+im+kris+aka.+krisofakind;a+comp+science+student+from+the+U.S.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&pause=1000&center=true&vCenter=true&width=670&lines=hi+im+kris+aka.+krisofakind;a+comp+science+student+from+the+U.S.)](https://git.io/typing-svg)
 
 <img src="https://media.tenor.com/iMUKJ0TEeOkAAAAC/anime-keyboard.gif" alt="drawing" width="1100"/>
 
