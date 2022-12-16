@@ -35,7 +35,7 @@ I am studying to become a multi engineer or applied scientist. Having skills nee
 
 <h3>TryHackMe</h3>
 
-<img src="https://i.ibb.co/mJxr6L8/krisxkrazy.png" alt="TryHackMe">
+<img src="https://i.ibb.co/mJxr6L8/krisxkrazy.png" alt="krisxkrazy" border="0">
 
 ## GitHub Stats
 
