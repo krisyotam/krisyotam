@@ -33,9 +33,9 @@
 ### Some Fun Facts about me:
 I am studying to become a multi engineer or applied scientist. Having skills needed for cybersecurity, machine learning, data science, software engineering, and quantium computing :zap: I love playing CTF's [Youtube Channel](http://youtube.com/@krisofakind). Also planning on live coding in the future! I'm super into sports, including tennis, track, and golf. You'll probably run into me at an event, if you do introduce yourself. glad to meet new people.
 
-<h3 style="color: red;">TryHackMe</h3>
+<h3>TryHackMe</h3>
 
-![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/krisxkrazy.png)
+<img src="https://tryhackme-badges.s3.amazonaws.com/krisxkrazy.png" alt="TryHackMe">
 
 ## GitHub Stats
 
