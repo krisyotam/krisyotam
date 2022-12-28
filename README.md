@@ -24,7 +24,8 @@
 <img align="right" width="150" height="150" src="https://i.postimg.cc/dV29Qzth/octocat-1669270722282.png"></a>
 
 ### Some Fun Facts about me:
-I am studying to become a multi engineer or applied scientist. Having skills needed for cybersecurity, machine learning, data science, software engineering, and quantium computing :zap: I love playing CTF's [Youtube Channel](http://youtube.com/@krisofakind). Also planning on live coding in the future! I'm super into sports, including tennis, track, and golf. You'll probably run into me at an event, if you do introduce yourself. glad to meet new people.
+As an aspiring multi-engineer or applied scientist, it is imperative to possess a multifaceted skillset, including proficiency in cybersecurity, machine learning, data science, software engineering, and quantum computing. My passion for playing capture the flag games and coding challenges demonstrates my dedication to continuously improving my capabilities in these areas. Furthermore, my enthusiasm for sports such as tennis, track, and golf showcase athleticism and drive for personal growth. It is likely that we will cross paths at professional events in the future, and I eagerly anticipate the opportunity to introduce myself and engage in intellectually stimulating discourse with you.
+
 
 -------
 
