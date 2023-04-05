@@ -29,7 +29,7 @@ As an aspiring multi-engineer or applied scientist, it is imperative to possess 
 
 -------
 <p align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" width="200">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" width="600">
 </p>
 
 
