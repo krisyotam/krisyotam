@@ -30,7 +30,10 @@ As an aspiring multi-engineer or applied scientist, it is imperative to possess 
 -------
 
 <img src="https://i.ibb.co/mJxr6L8/krisxkrazy.png" alt="krisxkrazy" border="0">
-<img src="https://tryhackme.com/badge/1604356" alt="TryHackMe Badge" style="max-width:100%;" />
+<p align="center">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" style="max-width: 100%;">
+</p>
+
 ## GitHub Stats
 
 [GitHub Readme Stats Repo](https://github.com/anuraghazra/github-readme-stats) and [🔥 GitHub Readme Streak Stats](https://github-readme-streak-stats.herokuapp.com/demo/).
