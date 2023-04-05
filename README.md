@@ -28,11 +28,11 @@ As an aspiring multi-engineer or applied scientist, it is imperative to possess 
 
 
 -------
-
-<img src="https://i.ibb.co/mJxr6L8/krisxkrazy.png" alt="krisxkrazy" border="0">
 <p align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" style="max-width: 100%;">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" width="200">
 </p>
+
+
 
 ## GitHub Stats
 
