@@ -21,33 +21,3 @@
 <p><a href="https://www.buymeacoffee.com/laelyotam"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="laelyotam" /></a><a href="https://ko-fi.com/krisofakind"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="krisofakind" /></a></p><br><br>
 
 
-<img align="right" width="150" height="150" src="https://i.ibb.co/HBKPZqm/octocat.png">
-
-
-### Some Fun Facts about me:
-As an aspiring multi-engineer or applied scientist, it is imperative to possess a multifaceted skillset, including proficiency in cybersecurity, machine learning, data science, software engineering, and quantum computing. My passion for playing capture the flag games and coding challenges demonstrates my dedication to continuously improving my capabilities in these areas. Furthermore, my enthusiasm for sports such as tennis, track, and golf showcase athleticism and drive for personal growth. It is likely that we will cross paths at professional events in the future, and I eagerly anticipate the opportunity to introduce myself and engage in intellectually stimulating discourse with you.
-
-
--------
-<p align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/krisctf.png" alt="TryHackMe" width="400">
-</p>
-
-
-
-## GitHub Stats
-
-[GitHub Readme Stats Repo](https://github.com/anuraghazra/github-readme-stats) and [🔥 GitHub Readme Streak Stats](https://github-readme-streak-stats.herokuapp.com/demo/).
-
-<!-- TODO change to the GitHub Skyline 2021 graph -->
-<img src="https://github-readme-stats.vercel.app/api?username=krisofakind&amp;show_icons=true&amp;theme=prussian" alt="Kris&#39;s GitHub stats" width="700"><br>
-<img src="https://github-readme-stats.vercel.app/api?username=krisofakind&show_icons=true&include_all_commits=true&count_private=true&theme=prussian&layout=compact" alt="GitHub Stats for MishManners" width="700"><br>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=krisofakind&theme=prussian" width="700">
-
-
-
-### Watch my contribution graph get eaten by the snake 🐍
-
-<!-- platane/snk works, it just puts it on a new branch -->
-![github-user-contribution](https://user-images.githubusercontent.com/75515498/203710096-fea6af10-71b6-45ba-8f48-a8ab39113e68.svg)
-
