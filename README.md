@@ -1,4 +1,3 @@
-# Kris Yotam
 
 ![Kris Yotam](1.png)
 
