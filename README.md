@@ -1,6 +1,6 @@
 # Kris Yotam
 
-![Kris Yotam](images/profile-picture.jpg)
+![Kris Yotam](1.png)
 
 ## About Me
 
