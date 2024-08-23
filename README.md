@@ -1,41 +1,43 @@
 
 ![Kris Yotam](1.png)
 
-## About Me
+### Socials
 
-👋 Hi there! I'm Kris Yotam, CEO & Founder of Lael Corp. I'm a visionary leader passionate about driving innovation through technology and exploring uncharted digital territories. With a background in software engineering and a keen eye for industry trends, I'm dedicated to shaping the future of tech.
+<p align="left"> <a href="https://www.github.com/krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/ctitus" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://krisyotam/rss" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a> <a href="https://www.youtube.com/krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /> </picture> </a> <a href="https://www.threads.net/@krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" width="32" height="32" /> </picture> </a> <a href="https://www.twitch.tv/krisyotam" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" /> </picture> </a></p>
 
-🚀 My journey has led me to embrace disruptive innovation, sustainable practices, and the power of collaboration. Join me as we navigate the ever-evolving landscape of technology, discovering new solutions that challenge the status quo.
+### GitHub Stats
 
-## My Repositories
+<p align="left"><img src="https://raw.githubusercontent.com/ChrisTitusTech/ChrisTitusTech/main/github-metrics.svg" /></p>
 
-### [LaelCorp-Vision](https://github.com/krisyotam/LaelCorp-Vision)
+### 👷 Check out what I'm currently working on
 
-Explore Lael Corp's visionary roadmap and strategic goals under my leadership. Together, we're pushing boundaries and creating a brighter tech future.
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
+- [ChrisTitusTech/dwm-titus](https://github.com/ChrisTitusTech/dwm-titus) - My DWM configuration with everything pre-patched
+- [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech&#39;s Windows Utility - Install Programs, Tweaks, Fixes, and Updates
+- [ChrisTitusTech/mybash](https://github.com/ChrisTitusTech/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel10k and Nord Theme had a baby.
+- [ChrisTitusTech/hyprland-titus](https://github.com/ChrisTitusTech/hyprland-titus) - My config files for Hyprland Wayland Window Manager
 
-### [TechInnovation-Projects](https://github.com/krisyotam/TechInnovation-Projects)
+### 🌱 My latest projects
 
-Discover the cutting-edge projects that Lael Corp is spearheading. We're pioneers, shaping industries with innovative solutions.
+- [ChrisTitusTech/ffxi-windower](https://github.com/ChrisTitusTech/ffxi-windower) - 
+- [ChrisTitusTech/acpilight](https://github.com/ChrisTitusTech/acpilight) - fixes broken xbacklight on new intels that uninstall xorg-server-video-intel packages which cause tearing
+- [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil) - The Ultimate Linux Toolbox
+- [ChrisTitusTech/glazewm](https://github.com/ChrisTitusTech/glazewm) - Tiling Window Management for Microsoft Windows
+- [ChrisTitusTech/XIVLauncher-Config](https://github.com/ChrisTitusTech/XIVLauncher-Config) - My Personal config for FFXIV
 
-### [LeadershipJourney](https://github.com/krisyotam/LeadershipJourney)
+### 🔨 My recent Pull Requests
 
-Join me on my leadership journey as I share insights, stories, and lessons from my experience in the tech world.
+- [Add AUR Helpers](https://github.com/ChrisTitusTech/linutil/pull/166) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Admin elevation when runs as regular user](https://github.com/ChrisTitusTech/winutil/pull/2565) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [fix unit tests](https://github.com/ChrisTitusTech/linutil/pull/53) on [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
+- [Update Invoke-WinUtilNumLock.ps1](https://github.com/ChrisTitusTech/winutil/pull/2104) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
+- [Compile Cleanup and Tweak Fixes](https://github.com/ChrisTitusTech/winutil/pull/2062) on [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 
-### [TechTalks-KrisYotam](https://github.com/krisyotam/TechTalks-KrisYotam)
+### ⭐ Recent Stars
 
-Catch up on the tech talks and presentations I've delivered at industry events. Let's stay informed and inspire each other.
+- [pbatard/Fido](https://github.com/pbatard/Fido) - A PowerShell script to download Windows or UEFI Shell ISOs
+- [nektos/act](https://github.com/nektos/act
 
-### [DigitalFrontiers-Blog](https://github.com/krisyotam/DigitalFrontiers-Blog)
-
-Dive into my thought-provoking blog posts exploring the frontiers of digital innovation. Join the conversation!
-
-### [InnovateWithLael](https://github.com/laelcorp/InnovateWithLael)
-
-Collaborate with us in this open space for developers, innovators, and partners. Let's shape the future together.
-
-### [TechInfluence-Bookshelf](https://github.com/krisyotam/TechInfluence-Bookshelf)
-
-Explore a curated collection of influential tech books and resources that have shaped my leadership philosophy.
 
 ## Connect with Me
 
