@@ -1,5 +1,5 @@
-![GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=krisyotam&theme=monokai&hide_border=false&card_width=1000&v=20240906)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krisyotam&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact&card_width=1000&v=20240811)
+![WakaTime Stats](https://wakatime.com/share/@bb17bd69-69a9-4caf-9225-53ade672bc8a/9535a7aa-df2a-473b-b980-c822885c6ee4.svg)
+![WakaTime Stats](https://wakatime.com/share/@bb17bd69-69a9-4caf-9225-53ade672bc8a/266e05b8-3634-4ae1-b538-ce5927acd384.svg)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=krisyotam&label=Profile%20Views&color=5&icon=2&pretty=true)](https://visitcount.itsvg.in)
