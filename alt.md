@@ -1,9 +1,9 @@
 ![WakaTime Share](https://wakatime.com/share/@bb17bd69-69a9-4caf-9225-53ade672bc8a/20ebbad5-72af-4b47-b2f0-bbad17414382.svg)
 
 
-> “I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction 
-> of all I want to understand about the many connections and relations which occur to me, how the matter in question was first thought of or arrived at…”
-> - Ada Lovelace  
+> “I never am really satisfied that I understand anything; because, understand it well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand about the many connections and relations which occur to me, how the matter in question was first thought of or arrived at…”  
+> — Ada Lovelace  
+
 
 <br><br>
 🧑🏾‍🎓 Mathematics Student, at Indiana University   
