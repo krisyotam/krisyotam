@@ -7,7 +7,7 @@
 
 <br><br>
 🧑🏾‍🎓 Mathematics Student, at Indiana University   
-🧠 I have been working on [OSSU Math](https://github.com/ossu/math), and [OSSU CS](https://github.com/ossu/computer-science) so check them out!  
+🧠 I have been working through [OSSU Math](https://github.com/ossu/math), and [OSSU CS](https://github.com/ossu/computer-science) view my progress!  
 📝 I review math & cs courses here [reviews](#)  
 ✍🏾 I write a lot here's a [link in bio](https://krislinkinbio.vercel.app/).    
 📫 **Connect with me**: ```krisyotam.c``` on Discord, [Matrix](https://matrix.to/#/@khr1st:matrix.org), or Mastodon ([CS](https://fosstodon.org/@krisyotam), [Math](https://mathstodon.xyz/@krisyotam), [Writing](https://mastodon.social/@krisyotam)).  
