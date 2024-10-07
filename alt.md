@@ -40,5 +40,5 @@ Gathering Resources & looking at past projects
 * Creating my roadmap
 * Exploring projects like ____ by ___.
 * Working on ____, _____, ______, & _____.
-* Working on Puritism a higher order philisophicl framework for intellectual thought. 
+* Working on Puritism a higher order philisophical framework for intellectual thought. 
 
