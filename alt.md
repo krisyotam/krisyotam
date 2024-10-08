@@ -8,14 +8,14 @@
 <br><br>
 🧑🏾‍🎓 Mathematics Student, at Indiana University   
 🧠 I have been working through [MIT Math](https://github.com/krisyotam/MITpuremath), and [OSSU CS](https://github.com/krisyotam/OSSUCompSci) view my progress!  
-📝 I review math & cs courses here [reviews](#)  
+📝 I review math & cs courses here [reviews](https://github.com/krisyotam/reviews)  
 ✍🏾 I write a lot here's a [link in bio](https://krislinkinbio.vercel.app/).    
 📫 **Connect with me**: ```krisyotam.c``` on Discord, [Matrix](https://matrix.to/#/@khr1st:matrix.org), or Mastodon ([CS](https://fosstodon.org/@krisyotam), [Math](https://mathstodon.xyz/@krisyotam), [Writing](https://mastodon.social/@krisyotam)).  
 
 <br><br>
 💻 **My Setup**: OS: [Gentoo](#), Keyboard: [HHKB Type S](#), PC: [2012 MacBook Pro, Corebooted](https://support.apple.com/en-us/111958)  
 🔭 **Working on** teaching mathematics like art; [Yotam Lectures in Mathematics](https://github.com/yotamlectures)  
-🌱 **Learning constantly**: C++ for competitive coding with [C++ Primer 5th Edition](#). C for Systems Programming [C Programming: A Modern Approach](#). Working my way through [Spivak Calculus](#).   
+🌱 **Learning constantly**: C++ for competitive coding with [C++ Primer 5th Edition](#). C for Systems Programming [C Programming: A Modern Approach](https://github.com/krisyotam/C_Programming_A_Modern_Approach). Working my way through [Spivak Calculus](https://github.com/krisyotam/Spivak-Calculus).   
     
 
 <br><br>
