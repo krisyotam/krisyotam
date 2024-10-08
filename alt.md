@@ -28,7 +28,7 @@ ____
 * Programming with [Structure and Interpretation of Computer Programs](), [The Pragmatic Programmer](https://www.amazon.com/gp/product/0135957052/ref=ox_sc_act_title_24?smid=ATVPDKIKX0DER&psc=1), [Design Patterns by Erich Gamma](https://www.amazon.com/gp/product/0201633612/ref=ox_sc_act_title_23?smid=A2VTGR0W05A7RO&psc=1), & [Refactoring by Martin Fowler](https://www.amazon.com/gp/product/0134757599/ref=ox_sc_act_title_25?smid=ATVPDKIKX0DER&psc=1)
 * Algorithims & Data Structs with [Introduction to Algorithims (MIT Press)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
 * Learning Competitve Programming with [CP Handbook](https://cses.fi/book/book.pdf)
-* Competitive Programming on [AtCoder](https://atcoder.jp/users/khr1st), [CodeForces](https://codeforces.com/profile/krisofakind), [LeetCode](https://leetcode.com/u/khr1st/)
+* Competitive Programming on [AtCoder](https://github.com/krisyotam/AtCoder), [CodeForces](https://github.com/krisyotam/CodeForces), [LeetCode](https://github.com/krisyotam/leetcode)
 
 
 <br><br>
