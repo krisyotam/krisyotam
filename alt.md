@@ -15,7 +15,7 @@
 <br><br>
 💻 **My Setup**: OS: [Gentoo](#), Keyboard: [HHKB Type S](#), PC: [2012 MacBook Pro, Corebooted](https://support.apple.com/en-us/111958)  
 🔭 **Working on** teaching mathematics like art; [Yotam Lectures in Mathematics](https://github.com/yotamlectures)  
-🌱 **Learning constantly**: C++ for competitive coding with [C++ Primer 5th Edition](#). C for Systems Programming [C Programming: A Modern Approach](https://github.com/krisyotam/C_Programming_A_Modern_Approach). Working my way through [Spivak Calculus](https://github.com/krisyotam/Spivak-Calculus).   
+🌱 **Learning constantly**: C++ for competitive coding with [C++ Primer 5th Edition](https://github.com/krisyotam/cpp_primer_5th_edition). C for Systems Programming [C Programming: A Modern Approach](https://github.com/krisyotam/C_Programming_A_Modern_Approach). Working my way through [Spivak Calculus](https://github.com/krisyotam/Spivak-Calculus).   
     
 
 <br><br>
