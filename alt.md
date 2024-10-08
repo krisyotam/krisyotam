@@ -38,7 +38,8 @@ learn more about the project here [Yotam Lectures in Mathematics](#)
 ##### 2024: Start of Uni & Foundations 
 Gathering Resources & looking at past projects
 * Creating my roadmap
-* Exploring projects like ____ by ___.
-* Working on ____, _____, ______, & _____.
-* Working on Puritism a higher order philisophical framework for intellectual thought. 
+* My University studies documented [here](https://github.com/krisyotam/IUmathematics) in full.
+* Exploring projects like [Polymath Classic Tutorials](https://polymathclassical.com/classical-math-one/), and documenting [here](https://github.com/krisyotam/mathreform).
+* Working on [Classical Mathematics](https://github.com/krisyotam/classicalmath), [Classical Thought](https://github.com/krisyotam/classicalthought), [Mathematical History](https://github.com/krisyotam/mathhistory), & [Introduciton to Logic](https://github.com/krisyotam/introtologic).
+* Working on [Puritism](https://github.com/krisyotam/puritism) a higher order philisophical framework/way of life for intellectual thought. 
 
