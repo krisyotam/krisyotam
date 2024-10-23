@@ -42,5 +42,12 @@ Gathering Resources & looking at past projects
 ###### Relevant & Related Side Projects Emerge
 * Exploring projects like [Polymath Classic Tutorials](https://polymathclassical.com/classical-math-one/), and documenting [here](https://github.com/krisyotam/mathreform).
 * Working on [Classical Mathematics](https://github.com/krisyotam/classicalmath), [Classical Thought](https://github.com/krisyotam/classicalthought), [Mathematical History](https://github.com/krisyotam/mathhistory), & [Introduciton to Logic](https://github.com/krisyotam/introtologic).
-* Working on [Puritism](https://github.com/krisyotam/puritism) a higher order philisophical framework/way of life for intellectual thought. 
+* Working on [Puritism](https://github.com/krisyotam/puritism) a higher order philisophical framework/way of life for intellectual thought.
+
+<br><br>
+### 🧠 Building Business
+______
+learning about sustainability in business []().
+Building a OpenSource Business Model for [Lael Inc.](https://github.com/krisyotam/laelslogs)
+##### 2024: Return Research Phase of Lael Inc.
 
