@@ -45,7 +45,7 @@ Gathering Resources & looking at past projects
 * Working on [Puritism](https://github.com/krisyotam/puritism) a higher order philisophical framework/way of life for intellectual thought.
 
 <br><br>
-### 🧠 Building Business
+### 💼 Building Business
 ______
 learning about sustainability in business []().
 Building a OpenSource Business Model for [Lael Inc.](https://github.com/krisyotam/laelslogs)
