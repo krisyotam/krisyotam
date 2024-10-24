@@ -22,6 +22,7 @@
 ### 💻 What I've been Learning 
 ____
 * Computer Architecture & Systems Programming with [Computer Systems: A Programmer's Perspective](https://shorturl.at/TGRmB)
+* Mastering LaTeX for Mathematics with this [game](https://github.com/krisyotam/TeXnique).
 * Linux with [The Linux Bible](https://www.amazon.com/Linux-Bible-Christopher-Negus/dp/1119578884), and [Classic Shell Scripting](https://www.amazon.com/Classic-Shell-Scripting-Arnold-Robbins/dp/0596005954)
 * Cybersecurity & Pentesting on [TryHackMe](https://tryhackme.com/p/khr1st), and [HackTheBox](#)
 * Computer Networking with [Communication Networks: A Concise Introduction](https://www.amazon.com/Communication-Networks-Introduction-Synthesis-Lectures/dp/1627058877)
