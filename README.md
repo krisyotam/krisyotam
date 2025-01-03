@@ -19,21 +19,7 @@
     
 
 <br><br>
-### 💻 What I've been Learning 
-____
-* Computer Architecture & Systems Programming with [Computer Systems: A Programmer's Perspective](https://shorturl.at/TGRmB)
-* Mastering LaTeX for Mathematics with this [game](https://github.com/krisyotam/TeXnique).
-* Linux with [The Linux Bible](https://www.amazon.com/Linux-Bible-Christopher-Negus/dp/1119578884), and [Classic Shell Scripting](https://www.amazon.com/Classic-Shell-Scripting-Arnold-Robbins/dp/0596005954)
-* Cybersecurity & Pentesting on [TryHackMe](https://tryhackme.com/p/khr1st), and [HackTheBox](#)
-* Computer Networking with [Communication Networks: A Concise Introduction](https://www.amazon.com/Communication-Networks-Introduction-Synthesis-Lectures/dp/1627058877)
-* Programming with [Structure and Interpretation of Computer Programs](), [The Pragmatic Programmer](https://www.amazon.com/gp/product/0135957052/ref=ox_sc_act_title_24?smid=ATVPDKIKX0DER&psc=1), [Design Patterns by Erich Gamma](https://www.amazon.com/gp/product/0201633612/ref=ox_sc_act_title_23?smid=A2VTGR0W05A7RO&psc=1), & [Refactoring by Martin Fowler](https://www.amazon.com/gp/product/0134757599/ref=ox_sc_act_title_25?smid=ATVPDKIKX0DER&psc=1)
-* Algorithims & Data Structs with [Introduction to Algorithims (MIT Press)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-* Learning Competitve Programming with [CP Handbook](https://cses.fi/book/book.pdf)
-* Competitive Programming on [AtCoder](https://github.com/krisyotam/AtCoder), [CodeForces](https://github.com/krisyotam/CodeForces), [LeetCode](https://github.com/krisyotam/leetcode)
-
-
-<br><br>
-### 🧠 Building Mathematics Curriculum 
+### 🧠 What Im Building?
 _____
 learn more about the project here [Yotam Lectures in Mathematics](#)
 ##### 2024: Start of Uni & Foundations 
@@ -45,14 +31,6 @@ Gathering Resources & looking at past projects
 * Working on [Classical Mathematics](https://github.com/krisyotam/classicalmath), [Classical Thought](https://github.com/krisyotam/classicalthought), [Mathematical History](https://github.com/krisyotam/mathhistory), & [Introduciton to Logic](https://github.com/krisyotam/introtologic).
 * Working on [Puritism](https://github.com/krisyotam/puritism) a higher order philisophical framework/way of life for intellectual thought.
 
-<br><br>
-### 💼 Building Business
-______
-learning about sustainability in business []().
-Building a OpenSource Business Model for [Lael Inc.](https://github.com/krisyotam/laelslogs)
-##### 2024: Return Research Phase of Lael Inc.
-Finding a way to automate Lael Inc. Research, Production, and Customer Service with automation tools. 
-Creating a business plan for Offl1n3 Development.
 
 ---
 ## > Support my Work
