@@ -8,20 +8,31 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
-    
+      uses: actions/checkout@v3  # Update to the latest v3 version
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
-    
+        python-version: '3.8'  # Consider using a more specific version like 3.8 or 3.9
+
     - name: Install dependencies
       run: |
         pip install requests
-    
+
     - name: Run update script
       run: |
         python update_readme.py  # Make sure your Python script is named properly
+
+    - name: Configure git user
+      run: |
+        git config --global user.name "krisyotam"
+        git config --global user.email "krisyotam@protonmail.com"
+
+    - name: Commit and push changes
+      run: |
+        git add README.md
+        git commit -m "Update README with new quote and date"
+        git push origin main
