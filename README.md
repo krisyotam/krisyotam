@@ -2,7 +2,7 @@
 
 _Current Date:_ {date}
 
-> _"{quote}" – {author}_
+> Failed to fetch quote
 
 <details>
   <summary><strong>My Philosophy</strong></summary>
