@@ -1,6 +1,6 @@
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Last updated:_ {date}
+_Current Date:_ {date}
 
 > _"{quote}"_
 
