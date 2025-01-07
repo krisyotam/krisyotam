@@ -1,0 +1,27 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # This will run every day at midnight UTC.
+  workflow_dispatch:  # This allows manual trigger.
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+    
+    - name: Run update script
+      run: |
+        python update_readme.py  # Make sure your Python script is named properly
