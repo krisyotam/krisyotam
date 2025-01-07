@@ -2,7 +2,7 @@
 
 _Current Date:_ {date}
 
-> _"{quote}"_
+> _"{quote}" – {author}_
 
 <details>
   <summary><strong>My Philosophy</strong></summary>
