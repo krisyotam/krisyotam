@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 09:33 PM CST
+_Current Date:_ January 07, 2025, 09:40 PM CST
 
-> "If you don't go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't step forward, you're always in the same place."
+> "I never did anything worth doing by accident, nor did any of my inventions come by accident"
+> — Thomas Edison
 > — Nora Roberts
 > — Gloria Steinem
 > — Eleanor Roosevelt
