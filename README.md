@@ -4,7 +4,7 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 11:04 PM CST
+_Current Date:_ January 07, 2025, 11:13 PM CST
 
-> "My religion consists of a humble admiration of the illimitable superior spirit who reveals himself in the slight details we are able to perceive with our frail and feeble mind."
-> — Albert Einstein
+> "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails."
+> — William Arthur Ward
