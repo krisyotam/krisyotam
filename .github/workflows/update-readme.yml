@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
+        pip install pytz  # Install pytz library
 
     - name: Run update script
       run: |
