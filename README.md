@@ -4,7 +4,7 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 10:46 PM CST
+_Current Date:_ January 07, 2025, 10:51 PM CST
 
-> "False friendship, like the ivy, decays and ruins the walls it embraces; but true friendship gives new life and animation to the object it supports."
-> — Richard Burton
+> "Well begun is half done."
+> — Aristotle
