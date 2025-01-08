@@ -4,6 +4,8 @@ _Current Date:_ {date}
 
 > Failed to fetch quote
 
+<img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/6defe022-1eb5-4181-8c28-12f1204908a0" alt="gif of the various My Octocats I've created"></a>
+
 <details>
   <summary><strong>My Philosophy</strong></summary>
 
