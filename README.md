@@ -1,9 +1,9 @@
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ {date}
+_Current Date:_ 2025-01-08 00:48:17 UTC
 
-> {quote}  
-> – {author}
+> "All the great performers I have worked with are fueled by a personal dream." — John Eliot
+> "All the great performers I have worked with are fueled by a personal dream." — John Eliot
 
 <img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/6defe022-1eb5-4181-8c28-12f1204908a0" alt="gif of the various My Octocats I've created"></a>
 
