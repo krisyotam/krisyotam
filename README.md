@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 09:56 PM CST
+_Current Date:_ January 07, 2025, 10:04 PM CST
 
-> "When a friend is in trouble, don't annoy him by asking if there is anything you can do. Think up something appropriate and do it."
+> "Beware of false knowledge; it is more dangerous than ignorance."
+> — Bernard Shaw
 > — A. Powell Davies
 > — Pope Paul VI
 > — Amelia Earhart
