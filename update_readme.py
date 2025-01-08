@@ -31,10 +31,13 @@ def update_readme():
     content = re.sub(r'> ".*?"\n> — .*', quote, content, flags=re.DOTALL)
 
     # Find the quote section and everything below it
-    quote_and_below = re.search(r'(?<=_Current Date:_ .*?\n)(.*)', content, flags=re.DOTALL).group(1)
-
-    # Define the markdown sections to reinsert
-    markdown_sections = """
+    # Modify the regex to avoid using lookbehind
+    quote_and_below = re.search(r'(_Current Date:_ .*?\n)(.*)', content, flags=re.DOTALL)
+    if quote_and_below:
+        quote_and_below = quote_and_below.group(2)
+    
+        # Define the markdown sections to reinsert
+        markdown_sections = """
 <details>
   <summary><strong>My Philosophy</strong></summary>
 
@@ -65,11 +68,11 @@ def update_readme():
 </details>
 """
 
-    # Replace everything after the quote with the markdown sections
-    new_content = re.sub(quote_and_below, markdown_sections.strip(), content, flags=re.DOTALL)
+        # Replace everything after the quote with the markdown sections
+        new_content = re.sub(re.escape(quote_and_below), markdown_sections.strip(), content, flags=re.DOTALL)
 
-    with open('README.md', 'w') as file:
-        file.write(new_content)
+        with open('README.md', 'w') as file:
+            file.write(new_content)
 
 if __name__ == "__main__":
     update_readme()
