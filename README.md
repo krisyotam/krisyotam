@@ -5,6 +5,10 @@
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
 _Current Date:_ January 08, 2025, 03:10 PM CST
+
+
+    <img align="right" width="150" height="150" src=https://github.com/user-attachments/assets/7b653925-0b1d-4682-879b-c2b9401edac7f" alt="gif of the various My Octocats I've created"></a>
+
 <details>
   <summary><strong>My Philosophy</strong></summary>
 
@@ -13,6 +17,7 @@ _Current Date:_ January 08, 2025, 03:10 PM CST
   I view complexity as the enemy of good software. By stripping away unnecessary features and focusing on the core purpose, I aim to craft software that is not only easy to maintain but also fast, secure, and sustainable. True progress is achieved through intentional subtraction, where each decision is made with purpose, and every line of code has meaning.
 
   My work is rooted in the belief that simplicity is the key to ingenuity. Software should empower users, respect their privacy, and prioritize functionality over form.
+
 
 </details>
 
