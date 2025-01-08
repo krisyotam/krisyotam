@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 09:03 PM CST
+_Current Date:_ January 07, 2025, 09:12 PM CST
 
-> "It is with words as with sunbeams. The more they are condensed, the deeper they burn."
+> "I think somehow, we learn who we really are and then live with that decision."
+> — Eleanor Roosevelt
 > — Robert Southey
 > — Zig Ziglar
 > — Albert Einstein
