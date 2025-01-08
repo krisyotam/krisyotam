@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import pytz
 import re
 
 def get_quote():
@@ -17,14 +18,15 @@ def update_readme():
     with open('README.md', 'r') as file:
         content = file.read()
 
-    # Format the date into a more readable format
-    current_date = datetime.now().strftime("%B %d, %Y, %I:%M %p UTC")
+    # Set up CST timezone using pytz
+    cst = pytz.timezone('US/Central')
+    current_date = datetime.now(cst).strftime("%B %d, %Y, %I:%M %p CST")  # Convert to CST and format
 
     quote = get_quote()
 
-    # Use regex to replace only the date and quote
-    content = re.sub(r'_Current Date:_ .*', f'_Current Date:_ {current_date}', content)
-    content = re.sub(r'> .*', quote, content)
+    # Use regex to replace only the date and quote (replacing only the first occurrence of each)
+    content = re.sub(r'_Current Date:_ .*', f'_Current Date:_ {current_date}', content, 1)  # Replace date only once
+    content = re.sub(r'> .*', quote, content, 1)  # Replace quote only once
 
     with open('README.md', 'w') as file:
         file.write(content)
