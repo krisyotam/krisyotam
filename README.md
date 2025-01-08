@@ -4,7 +4,7 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 10:51 PM CST
+_Current Date:_ January 07, 2025, 10:57 PM CST
 
-> "Well begun is half done."
-> — Aristotle
+> "All human wisdom is summed up in two words; wait and hope."
+> — Alexandre Dumas
