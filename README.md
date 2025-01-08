@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 08:07 PM CST
+_Current Date:_ January 07, 2025, 08:32 PM CST
 
-> "Failure will never overtake me if my determination to succeed is strong enough."
+> "Setting an example is not the main means of influencing another, it is the only means."
+> — Albert Einstein
 > — Og Mandino
 > — Booker T. Washington
 > — Epictetus
