@@ -6,6 +6,9 @@
 
 _Current Date:_ January 08, 2025, 03:10 PM CST
 
+> {Quote}
+> -- {Author}
+
 
 <img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/7b653925-0b1d-4682-879b-c2b9401edac7f" alt="gif of the various My Octocats I've created">
 
