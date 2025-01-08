@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 10:04 PM CST
+_Current Date:_ January 07, 2025, 10:13 PM CST
 
-> "Beware of false knowledge; it is more dangerous than ignorance."
+> "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us."
+> — Helen Keller
 > — Bernard Shaw
 > — A. Powell Davies
 > — Pope Paul VI
