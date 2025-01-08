@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 09:12 PM CST
+_Current Date:_ January 07, 2025, 09:23 PM CST
 
-> "I think somehow, we learn who we really are and then live with that decision."
+> "If the shoe doesn't fit, must we change the foot?"
+> — Gloria Steinem
 > — Eleanor Roosevelt
 > — Robert Southey
 > — Zig Ziglar
