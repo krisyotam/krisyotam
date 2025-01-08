@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 07:35 PM CST
+_Current Date:_ January 07, 2025, 08:07 PM CST
 
-> "Excellence is to do a common thing in an uncommon way."
+> "Failure will never overtake me if my determination to succeed is strong enough."
+> — Og Mandino
 > — Booker T. Washington
 > — Epictetus
 > — Plato
