@@ -1,8 +1,9 @@
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 08, 2025, 12:52 AM UTC
+_Current Date:_ January 08, 2025, 12:53 AM UTC
 
-> {quote}
+> "There are three classes of men; lovers of wisdom, lovers of honor, and lovers of gain."
+> — Plato
 
 <img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/6defe022-1eb5-4181-8c28-12f1204908a0" alt="gif of the various My Octocats I've created"></a>
 
