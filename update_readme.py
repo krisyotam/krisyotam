@@ -24,20 +24,15 @@ def update_readme():
 
     quote = get_quote()
 
-    # Use regex to replace the current date
+    # Update the current date
     content = re.sub(r'_Current Date:_ .*', f'_Current Date:_ {current_date}', content, 1)
 
-    # Use regex to replace the entire quote block (multi-line quote and author)
-    content = re.sub(r'> ".*?"\n> — .*', quote, content, flags=re.DOTALL)
+    # Update the quote block (use a robust pattern for multiline quotes)
+    quote_pattern = r'> ".*?(?:\n.*?)*"\n> — .*'
+    content = re.sub(quote_pattern, quote, content, flags=re.DOTALL)
 
-    # Find the quote section and everything below it
-    # Modify the regex to avoid using lookbehind
-    quote_and_below = re.search(r'(_Current Date:_ .*?\n)(.*)', content, flags=re.DOTALL)
-    if quote_and_below:
-        quote_and_below = quote_and_below.group(2)
-    
-        # Define the markdown sections to reinsert
-        markdown_sections = """
+    # Define the markdown sections to append
+    markdown_sections = """
 <details>
   <summary><strong>My Philosophy</strong></summary>
 
@@ -68,11 +63,13 @@ def update_readme():
 </details>
 """
 
-        # Replace everything after the quote with the markdown sections
-        new_content = re.sub(re.escape(quote_and_below), markdown_sections.strip(), content, flags=re.DOTALL)
+    # Ensure the additional markdown sections are present
+    if markdown_sections.strip() not in content:
+        content += "\n\n" + markdown_sections.strip()
 
-        with open('README.md', 'w') as file:
-            file.write(new_content)
+    with open('README.md', 'w') as file:
+        file.write(content)
 
 if __name__ == "__main__":
     update_readme()
+
