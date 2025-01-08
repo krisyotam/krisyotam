@@ -2,11 +2,7 @@
 
 _Current Date:_ January 08, 2025, 12:52 AM UTC
 
-> "Liberty, taking the word in its concrete sense, consists in the ability to choose."
-> — Simone Weil
-> "Liberty, taking the word in its concrete sense, consists in the ability to choose."
-> — Simone Weil
-
+> {quote}
 
 <img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/6defe022-1eb5-4181-8c28-12f1204908a0" alt="gif of the various My Octocats I've created"></a>
 
