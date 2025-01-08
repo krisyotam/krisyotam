@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 09:40 PM CST
+_Current Date:_ January 07, 2025, 09:45 PM CST
 
-> "I never did anything worth doing by accident, nor did any of my inventions come by accident"
+> "Never interrupt someone doing what you said couldn't be done."
+> — Amelia Earhart
 > — Thomas Edison
 > — Nora Roberts
 > — Gloria Steinem
