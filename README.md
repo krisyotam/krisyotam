@@ -4,9 +4,10 @@
 
 [**Contact Me**](https://krispuremath.vercel.app/pages/html/contact.html)
 
-_Current Date:_ January 07, 2025, 06:58 PM CST
+_Current Date:_ January 07, 2025, 07:35 PM CST
 
-> "It is impossible for a man to learn what he thinks he already knows."
+> "Excellence is to do a common thing in an uncommon way."
+> — Booker T. Washington
 > — Epictetus
 > — Plato
 
