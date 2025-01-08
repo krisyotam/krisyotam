@@ -24,12 +24,15 @@ def update_readme():
 
     quote = get_quote()
 
-    # Use regex to replace only the date and quote (replacing only the first occurrence of each)
-    content = re.sub(r'_Current Date:_ .*', f'_Current Date:_ {current_date}', content, 1)  # Replace date only once
-    content = re.sub(r'> .*', quote, content, 1)  # Replace quote only once
+    # Use regex to replace the current date
+    content = re.sub(r'_Current Date:_ .*', f'_Current Date:_ {current_date}', content, 1)
+
+    # Use regex to replace the entire quote block (multi-line quote and author)
+    content = re.sub(r'> ".*?"\n> — .*', quote, content, flags=re.DOTALL)
 
     with open('README.md', 'w') as file:
         file.write(content)
 
 if __name__ == "__main__":
     update_readme()
+
