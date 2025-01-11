@@ -6,8 +6,9 @@
 
 _Current Date:_ January 11, 2025, 04:37 AM CST
 
-> This is a new quote.
-> – New Author
+> "That brain of mine is something more than merely mortal; as time will show."
+> – Ada Lovelace
+
 
 <img align="right" width="150" height="150" src="https://github.com/user-attachments/assets/7b653925-0b1d-4682-879b-c2b9401edac7f" alt="gif of the various My Octocats I've created">
 
