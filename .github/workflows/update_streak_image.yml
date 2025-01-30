@@ -1,0 +1,34 @@
+name: Update GitHub Streak Image
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"  # Runs every 5 hours
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Download Streak Stats Image
+        run: |
+          curl -o streak_stats.png "https://streak-stats.demolab.com/?user=krisyotam"
+
+      - name: Update README.md
+        run: |
+          echo '<p align="center">' > temp.md
+          echo '  <img src="streak_stats.png" alt="GitHub Streak" style="width: 1200px; height: auto;">' >> temp.md
+          echo '</p>' >> temp.md
+          tail -n +4 README.md >> temp.md
+          mv temp.md README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "krisyotam"
+          git config --global user.email "krisyotam@protonmail.com"
+          git add streak_stats.png README.md
+          git commit -m "Updated GitHub Streak Stats Image" || echo "No changes to commit"
+          git push
