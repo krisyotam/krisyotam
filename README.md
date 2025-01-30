@@ -1,1 +1,3 @@
-<div align="center"><img src="https://streak-stats.demolab.com?user=krisyotam" alt="GitHub Streak" style="width: 1200px; height: auto;"></div>
+<p align="center">
+  <img src="streak_stats.png" alt="GitHub Streak" style="width: 1200px; height: auto;">
+</p>
