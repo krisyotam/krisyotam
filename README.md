@@ -38,7 +38,14 @@ More on [krisyotam.com/blog](https://krisyotam.com/blog)
 
 <!-- til starts -->
 ### TIL
-*Nothing yet.*
+* [IndieWeb Note vs Article Distinction](https://krisyotam.com/til/03-30-2026) - 2026-03-30
+* [Next.js force-static Pages Require Dev Server Restart](https://krisyotam.com/til/03-30-2026-b) - 2026-03-30
+* [Mixture-of-Experts Architecture in LLMs](https://krisyotam.com/til/03-30-2026-c) - 2026-03-30
+* [The fuser Command Kills Processes on a Port](https://krisyotam.com/til/03-30-2026-d) - 2026-03-30
+* [Next.js dynamicParams and NoFallbackError](https://krisyotam.com/til/03-29-2026) - 2026-03-29
+* [HTML Button Nesting Causes Hydration Errors](https://krisyotam.com/til/03-29-2026-b) - 2026-03-29
+* [Git Submodules Are Not Cloned in Docker Builds](https://krisyotam.com/til/03-29-2026-c) - 2026-03-29
+* [D3 Force Simulation Tuning for Knowledge Graphs](https://krisyotam.com/til/03-28-2026) - 2026-03-28
 
 More on [krisyotam.com/til](https://krisyotam.com/til)
 <!-- til ends -->
