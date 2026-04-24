@@ -22,14 +22,14 @@ More on [krisyotam.com/essays](https://krisyotam.com/essays)
 
 <!-- blog starts -->
 ### On my Blog
-* [Mnemosyne](https://krisyotam.com/blog/technology/mnemosyne) - 2025-09-11
-* [On Torrents](https://krisyotam.com/blog/technology/on-torrents) - 2025-08-20
-* [Analysis of Veronica Sawyer](https://krisyotam.com/blog/literature/analysis-of-veronica-sawyer) - 2025-08-17
-* [Analysis of Las Meninas (Velázquez)](https://krisyotam.com/blog/culture/analysis-of-las-meninas) - 2025-08-13
-* [Analysis of The Acrobats (Doré)](https://krisyotam.com/blog/culture/analysis-of-the-acrobats) - 2025-08-13
-* [BFI Sight & Sound 250](https://krisyotam.com/blog/film/bfi-sight-and-sound-250) - 2025-08-04
-* [Against High-Functioning Giftedness](https://krisyotam.com/blog/psychology/against-high-functioning-giftedness) - 2025-07-13
-* [Dialogue on Timed Cognition](https://krisyotam.com/blog/psychology/dialogue-on-timed-cognition) - 2025-07-13
+* [Cinema](https://krisyotam.com/blog/culture/cinema) - 2026-04-23
+* [Hardware](https://krisyotam.com/blog/technology/hardware) - 2026-04-23
+* [Harmful](https://krisyotam.com/blog/technology/harmful) - 2026-04-23
+* [Legal](https://krisyotam.com/blog/meta/legal) - 2026-04-23
+* [Library](https://krisyotam.com/blog/culture/library) - 2026-04-23
+* [Linux Distro Reviews](https://krisyotam.com/blog/technology/distros) - 2026-04-23
+* [Music](https://krisyotam.com/blog/culture/music) - 2026-04-23
+* [Programs](https://krisyotam.com/blog/technology/programs) - 2026-04-23
 
 More on [krisyotam.com/blog](https://krisyotam.com/blog)
 <!-- blog ends -->
