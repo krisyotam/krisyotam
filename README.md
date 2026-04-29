@@ -6,7 +6,14 @@
 
 <!-- essays starts -->
 ### On the Essays
-*Nothing yet.*
+* [A discourse on egoism](https://krisyotam.com/essays/philosophy/a-discourse-on-egoism) - 2025-09-26
+* [A Taxonomy of Needs](https://krisyotam.com/essays/philosophy/a-taxonomy-of-needs) - 2025-08-11
+* [Against the Desire for Solipsism](https://krisyotam.com/essays/philosophy/against-the-desire-for-solipsism) - 2025-08-11
+* [Faith in the Absence of Certainty](https://krisyotam.com/essays/philosophy/faith-in-the-absence-of-certainty) - 2025-08-11
+* [In Defense of the Malfeasant](https://krisyotam.com/essays/philosophy/in-defense-of-the-malfeasant) - 2025-08-11
+* [That to Live is to Be Evil](https://krisyotam.com/essays/philosophy/that-to-live-is-to-be-evil) - 2025-08-11
+* [The Cost of Perjury](https://krisyotam.com/essays/philosophy/the-cost-of-perjury) - 2025-08-11
+* [A Tribute to Kris](https://krisyotam.com/essays/on-myself/a-tribute-to-kris) - 2025-08-05
 
 More on [krisyotam.com/essays](https://krisyotam.com/essays)
 <!-- essays ends -->
@@ -15,7 +22,14 @@ More on [krisyotam.com/essays](https://krisyotam.com/essays)
 
 <!-- blog starts -->
 ### On my Blog
-*Nothing yet.*
+* [Graveyard](https://krisyotam.com/blog/website/graveyard) - 2026-04-24
+* [Hardware](https://krisyotam.com/blog/technology/hardware) - 2026-04-23
+* [Harmful](https://krisyotam.com/blog/technology/harmful) - 2026-04-23
+* [Legal](https://krisyotam.com/blog/meta/legal) - 2026-04-23
+* [Linux Distro Reviews](https://krisyotam.com/blog/technology/distros) - 2026-04-23
+* [Music](https://krisyotam.com/blog/culture/music) - 2026-04-23
+* [Programs](https://krisyotam.com/blog/technology/programs) - 2026-04-23
+* [Rules of the Internet](https://krisyotam.com/blog/culture/rules-of-the-internet) - 2026-04-23
 
 More on [krisyotam.com/blog](https://krisyotam.com/blog)
 <!-- blog ends -->
