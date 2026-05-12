@@ -27,9 +27,9 @@ More on [krisyotam.com/essays](https://krisyotam.com/essays)
 * [Harmful](https://krisyotam.com/blog/technology/harmful) - 2026-04-23
 * [Legal](https://krisyotam.com/blog/meta/legal) - 2026-04-23
 * [Linux Distro Reviews](https://krisyotam.com/blog/technology/distros) - 2026-04-23
-* [Music](https://krisyotam.com/blog/culture/music) - 2026-04-23
 * [Programs](https://krisyotam.com/blog/technology/programs) - 2026-04-23
 * [Rules of the Internet](https://krisyotam.com/blog/culture/rules-of-the-internet) - 2026-04-23
+* [Mnemosyne](https://krisyotam.com/blog/technology/mnemosyne) - 2025-09-11
 
 More on [krisyotam.com/blog](https://krisyotam.com/blog)
 <!-- blog ends -->
