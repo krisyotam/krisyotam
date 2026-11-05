@@ -9,6 +9,8 @@ const GENERATOR_FILE = fileURLToPath(import.meta.url);
 const ROOT = path.resolve(path.dirname(GENERATOR_FILE), '..');
 const OUT = path.join(ROOT, 'profile', 'generated');
 const CACHE = path.join(ROOT, 'profile', 'github-cache.json');
+const CALENDAR_CACHE = path.join(ROOT, 'profile', 'contributions.json');
+const DAY_MS = 24 * 60 * 60 * 1000;
 const config = JSON.parse(await readFile(path.join(ROOT, 'profile.config.json'), 'utf8'));
 const monoFont = (await readFile(path.join(ROOT, 'fonts', 'CommitMono-Regular.woff2'))).toString('base64');
 const { github, projects, profile, theme, motion, effects, layout } = config;
@@ -90,7 +92,35 @@ async function loadGithubData() {
   }
 }
 
-const data = await loadGithubData();
+async function loadContributionCalendar() {
+  try {
+    const response = await fetch(`https://github.com/users/${encodeURIComponent(github.username)}/contributions`, {
+      signal: AbortSignal.timeout(15_000),
+    });
+    if (!response.ok) throw new Error(`GitHub contribution calendar HTTP ${response.status}`);
+    const html = await response.text();
+    const total = html.match(/id="js-contribution-activity-description"[^>]*>\s*([\d,]+)\s+contributions?\b/)?.[1];
+    const days = [...html.matchAll(/<td\b[^>]*\bdata-date="(\d{4}-\d{2}-\d{2})"[^>]*\bdata-level="([0-4])"[^>]*>/g)]
+      .map(([, day, level]) => [day, level])
+      .sort(([a], [b]) => a.localeCompare(b));
+    const start = Date.parse(days[0]?.[0]);
+    if (!total || days.length < 365 || days.length > 372 ||
+        !days.every(([day], index) => Date.parse(day) === start + index * DAY_MS)) {
+      throw new Error('GitHub returned an incomplete contribution calendar');
+    }
+    const calendar = { username: github.username, start: days[0][0], total: Number(total.replaceAll(',', '')), levels: days.map(([, level]) => level).join('') };
+    await mkdir(path.dirname(CALENDAR_CACHE), { recursive: true });
+    await writeFile(CALENDAR_CACHE, `${JSON.stringify(calendar, null, 2)}\n`);
+    return calendar;
+  } catch (error) {
+    const cached = await readFile(CALENDAR_CACHE, 'utf8').then(JSON.parse).catch(() => null);
+    if (cached?.username !== github.username) throw error;
+    console.warn(`Using cached contribution calendar: ${error.message}`);
+    return cached;
+  }
+}
+
+const [data, calendar] = await Promise.all([loadGithubData(), loadContributionCalendar()]);
 const generatorSource = await readFile(GENERATOR_FILE, 'utf8');
 const assetVersion = createHash('sha256')
   .update(JSON.stringify(config))
@@ -330,7 +360,7 @@ function headerSvg() {
 }
 
 function statCell(x, y, width, height, label, value, rightEdge = false, valueClass = 't1') {
-  return `<g><line x1="${x}" x2="${x + width}" y1="${y + height + .5}" y2="${y + height + .5}" stroke="${c.line}"/><line x1="${x + width + .5}" x2="${x + width + .5}" y1="${y}" y2="${y + height}" stroke="${rightEdge ? 'none' : c.line}"/><text x="${x + 16}" y="${y + 27}" class="micro t3">${esc(label)}</text><text x="${x + 16}" y="${y + 62}" class="code ${valueClass}" font-size="24">${esc(clamp(value, 14))}</text></g>`;
+  return `<g><line x1="${x}" x2="${x + width}" y1="${y + height + .5}" y2="${y + height + .5}" stroke="${c.line}"/><line x1="${x + width + .5}" x2="${x + width + .5}" y1="${y}" y2="${y + height}" stroke="${rightEdge ? 'none' : c.line}"/><text x="${x + 16}" y="${y + 27}" class="micro t3">${esc(label)}</text><text x="${x + 16}" y="${y + 62}" class="code ${valueClass}" font-size="24">${esc(clamp(value, 18))}</text></g>`;
 }
 
 function projectSvg(repo) {
@@ -388,8 +418,38 @@ function linkSvg(label, width = W / 4) {
   return shell(width, 68, label, `<text x="12" y="41" class="label t1">${esc(label)} ↗</text>`);
 }
 
-function themePicture(name, width, alt) {
-  return `<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/generated/${name}-dark.svg?v=${assetVersion}"><source media="(prefers-color-scheme: light)" srcset="./profile/generated/${name}-light.svg?v=${assetVersion}"><img src="./profile/generated/${name}-dark.svg?v=${assetVersion}" width="${width}" alt="${alt}"></picture>`;
+const contributionTotal = `${calendar.total.toLocaleString('en-US')} contributions in the last year`;
+
+function contributionsSvg() {
+  const start = new Date(calendar.start);
+  const offset = start.getUTCDay();
+  const weeks = Math.ceil((calendar.levels.length + offset) / 7);
+  const left = 54;
+  const top = 73;
+  const step = Math.floor((W - left - 18) / weeks);
+  const size = step - 3;
+  const square = (x, y, level) => `<rect x="${x}" y="${y}" width="${size}" height="${size}" rx="2" fill="${level ? c.accent : c.well}" opacity="${[1, .22, .42, .65, 1][level]}"/>`;
+  const month = new Intl.DateTimeFormat('en', { month: 'short', timeZone: 'UTC' });
+  const cells = Array.from(calendar.levels, (level, index) => {
+    const day = new Date(start.getTime() + index * DAY_MS);
+    const x = left + Math.floor((index + offset) / 7) * step;
+    const y = top + ((index + offset) % 7) * step;
+    const startsMonth = day.getUTCDate() === 1 || (index === 0 && day.getUTCDate() <= 21);
+    const label = startsMonth && index < calendar.levels.length - 7
+      ? `<text x="${x}" y="62" class="code-sm t3">${month.format(day)}</text>` : '';
+    return label + square(x, y, Number(level));
+  }).join('');
+  const weekdays = ['Mon', 'Wed', 'Fri'].map((label, index) =>
+    `<text x="12" y="${top + (index * 2 + 1) * step + size - 1}" class="code-sm t3">${label}</text>`).join('');
+  const legendY = top + 7 * step + 14;
+  const legendX = W - 54 - 5 * step;
+  const legend = Array.from({ length: 5 }, (_, level) => square(legendX + level * step, legendY, level)).join('');
+  return shell(W, legendY + size + 14, `GitHub contribution heatmap. ${contributionTotal}.`,
+    `${panelHead(W, 'contributions', contributionTotal)}${weekdays}${cells}<text x="${legendX - 8}" y="${legendY + size - 1}" class="code-sm t3" text-anchor="end">Less</text>${legend}<text x="${legendX + 5 * step + 5}" y="${legendY + size - 1}" class="code-sm t3">More</text>`);
+}
+
+function themePicture(name, width, alt, version = assetVersion) {
+  return `<picture><source media="(prefers-color-scheme: dark)" srcset="./profile/generated/${name}-dark.svg?v=${version}"><source media="(prefers-color-scheme: light)" srcset="./profile/generated/${name}-light.svg?v=${version}"><img src="./profile/generated/${name}-dark.svg?v=${version}" width="${width}" alt="${alt}"></picture>`;
 }
 
 function readme(featured, more, links) {
@@ -398,6 +458,7 @@ function readme(featured, more, links) {
   const projectCards = featured.map((repo, index) => `<a href="${repo.__options.projectUrl?.trim() || repo.html_url}">${themePicture(`project-${String(index + 1).padStart(2, '0')}`, cardWidth, `${esc(repo.name)}: ${esc(repo.description || 'GitHub repository')}`)}</a>`).join(separator);
   const linkWidth = `${100 / links.length}%`;
   const linkCells = links.map((link, index) => `<a href="${link.url}">${themePicture(`link-${String(index + 1).padStart(2, '0')}`, linkWidth, esc(link.label))}</a>`).join('');
+  const calendarVersion = createHash('sha256').update(assetVersion).update(JSON.stringify(calendar)).digest('hex').slice(0, 10);
   return `<!-- Generated by scripts/build-profile.mjs. Edit profile.config.json, not this file. -->
 <p align="center">${themePicture('header', '100%', `${esc(profile.name)}: ${esc(profile.role)}`)}</p>
 
@@ -406,6 +467,8 @@ ${projectCards}
 <a href="https://github.com/${github.username}?tab=repositories">${themePicture('repos', '100%', `Selected repositories by ${github.username}`)}</a>
 
 <p align="center">${linkCells}</p>
+
+<a href="https://github.com/${github.username}#js-contribution-activity-description">${themePicture('contributions', '100%', `GitHub contribution heatmap. ${contributionTotal}.`, calendarVersion)}</a>
 `;
 }
 
@@ -459,6 +522,7 @@ async function writeTheme(name, palette) {
   await writeFile(path.join(OUT, `header-${name}.svg`), headerSvg());
   await Promise.all(featured.map((repo, index) => writeFile(path.join(OUT, `project-${String(index + 1).padStart(2, '0')}-${name}.svg`), projectSvg(repo))));
   await writeFile(path.join(OUT, `repos-${name}.svg`), reposSvg(more));
+  await writeFile(path.join(OUT, `contributions-${name}.svg`), contributionsSvg());
   await Promise.all(links.map((link, index) => writeFile(path.join(OUT, `link-${String(index + 1).padStart(2, '0')}-${name}.svg`), linkSvg(link.label, W / links.length))));
 }
 
