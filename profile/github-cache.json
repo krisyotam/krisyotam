@@ -6,33 +6,6 @@
     "following": 2
   },
   "repos": {
-    "model": {
-      "name": "model",
-      "full_name": "krisyotam/model",
-      "html_url": "https://github.com/krisyotam/model",
-      "description": "A convention for giving every AI agent CLI on a machine the same set of facts",
-      "language": null,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-08-14T05:02:28Z",
-      "topics": []
-    },
-    "whichisbetter": {
-      "name": "whichisbetter",
-      "full_name": "krisyotam/whichisbetter",
-      "html_url": "https://github.com/krisyotam/whichisbetter",
-      "description": "Local Bradley-Terry paired comparison tool for ranking images. Upload JSON or SQLite, rate pairs, export rankings. Everything runs in your browser.",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 1,
-      "updated_at": "2026-05-15T06:17:53Z",
-      "topics": [
-        "bradley-terry",
-        "nextjs",
-        "paired-comparison",
-        "ranking"
-      ]
-    },
     "ssg": {
       "name": "ssg",
       "full_name": "krisyotam/ssg",
@@ -42,6 +15,17 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2026-10-14T07:27:36Z",
+      "topics": []
+    },
+    "model": {
+      "name": "model",
+      "full_name": "krisyotam/model",
+      "html_url": "https://github.com/krisyotam/model",
+      "description": "A convention for giving every AI agent CLI on a machine the same set of facts",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-08-14T05:02:28Z",
       "topics": []
     },
     "suckless": {
@@ -78,6 +62,22 @@
         "pgp",
         "puzzles",
         "steganography"
+      ]
+    },
+    "whichisbetter": {
+      "name": "whichisbetter",
+      "full_name": "krisyotam/whichisbetter",
+      "html_url": "https://github.com/krisyotam/whichisbetter",
+      "description": "Local Bradley-Terry paired comparison tool for ranking images. Upload JSON or SQLite, rate pairs, export rankings. Everything runs in your browser.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "updated_at": "2026-05-15T06:17:53Z",
+      "topics": [
+        "bradley-terry",
+        "nextjs",
+        "paired-comparison",
+        "ranking"
       ]
     }
   }
