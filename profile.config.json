@@ -1,0 +1,142 @@
+{
+  "$schema": "./profile.config.schema.json",
+  "github": {
+    "username": "krisyotam",
+    "featuredRepos": [
+      {
+        "repo": "whichisbetter",
+        "solidButton": true,
+        "ctaLabel": "Visit project",
+        "ctaArrow": null,
+        "showRepoPath": false,
+        "projectUrl": "https://whichisbetter.dev",
+        "showBanner": true,
+        "autoOgImage": true,
+        "ogSourceUrl": "https://github.com/krisyotam/whichisbetter",
+        "bannerUrl": ""
+      },
+      {
+        "repo": "model",
+        "solidButton": true,
+        "ctaLabel": "View source",
+        "ctaArrow": null,
+        "showRepoPath": false,
+        "projectUrl": "",
+        "showBanner": true,
+        "autoOgImage": true,
+        "ogSourceUrl": "",
+        "bannerUrl": ""
+      }
+    ],
+    "moreRepos": [
+      "ssg",
+      "suckless",
+      "cicada3301"
+    ]
+  },
+  "projects": {
+    "bannersEnabled": true,
+    "autoOgImages": true,
+    "bannerHeight": 220,
+    "bannerFit": "contain"
+  },
+  "profile": {
+    "name": "Kris Yotam",
+    "handle": "@krisyotam",
+    "role": "Software and writing",
+    "intro": "Software and writing at krisyotam.com.",
+    "status": "Building small tools and public archives",
+    "focus": "tools & text",
+    "state": "active",
+    "links": [
+      {
+        "label": "website",
+        "url": "https://krisyotam.com"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/krisyotam"
+      },
+      {
+        "label": "repos",
+        "url": "https://github.com/krisyotam?tab=repositories"
+      },
+      {
+        "label": "config",
+        "url": "https://github.com/krisyotam/krisyotam/blob/main/profile.config.json"
+      }
+    ]
+  },
+  "theme": {
+    "dark": {
+      "page": "#f7f7f6",
+      "panel": "#ffffff",
+      "well": "#efefed",
+      "text1": "#191918",
+      "text2": "#626260",
+      "text3": "#656563",
+      "line": "#e3e3e0",
+      "lineFaint": "#ececea",
+      "accent": "#1b1b1a",
+      "accentText": "#f8f8f7",
+      "selected": "#c9c9c6",
+      "ok": "#626260",
+      "warn": "#626260",
+      "fail": "#191918",
+      "languageFallback": "#656563",
+      "auroraPalette": [
+        "#f7f7f6",
+        "#e7e7e5",
+        "#d5d5d2",
+        "#bdbdba",
+        "#a5a5a2",
+        "#858583"
+      ]
+    },
+    "light": {
+      "page": "#f7f7f6",
+      "panel": "#ffffff",
+      "well": "#efefed",
+      "text1": "#191918",
+      "text2": "#626260",
+      "text3": "#656563",
+      "line": "#e3e3e0",
+      "lineFaint": "#ececea",
+      "accent": "#1b1b1a",
+      "accentText": "#f8f8f7",
+      "selected": "#c9c9c6",
+      "ok": "#626260",
+      "warn": "#626260",
+      "fail": "#191918",
+      "languageFallback": "#656563",
+      "auroraPalette": [
+        "#f7f7f6",
+        "#e7e7e5",
+        "#d5d5d2",
+        "#bdbdba",
+        "#a5a5a2",
+        "#858583"
+      ]
+    }
+  },
+  "motion": {
+    "enabled": true,
+    "speed": 1,
+    "auroraDuration": 9,
+    "auroraFps": 30,
+    "pendingDuration": 0.8
+  },
+  "effects": {
+    "dither": true,
+    "ditherScale": 4,
+    "ditherStrength": 0.82,
+    "animatedAurora": true,
+    "pendingMark": true
+  },
+  "layout": {
+    "width": 880,
+    "projectColumns": 2,
+    "showStats": true,
+    "showUpdatedAt": true
+  }
+}

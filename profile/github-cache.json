@@ -1,0 +1,84 @@
+{
+  "user": {
+    "login": "krisyotam",
+    "public_repos": 99,
+    "followers": 14,
+    "following": 2
+  },
+  "repos": {
+    "ssg": {
+      "name": "ssg",
+      "full_name": "krisyotam/ssg",
+      "html_url": "https://github.com/krisyotam/ssg",
+      "description": "Markdown and MDX to HTML in one C99 file, configured at compile time",
+      "language": "C",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-10-14T07:27:36Z",
+      "topics": []
+    },
+    "whichisbetter": {
+      "name": "whichisbetter",
+      "full_name": "krisyotam/whichisbetter",
+      "html_url": "https://github.com/krisyotam/whichisbetter",
+      "description": "Local Bradley-Terry paired comparison tool for ranking images. Upload JSON or SQLite, rate pairs, export rankings. Everything runs in your browser.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 1,
+      "updated_at": "2026-05-15T06:17:53Z",
+      "topics": [
+        "bradley-terry",
+        "nextjs",
+        "paired-comparison",
+        "ranking"
+      ]
+    },
+    "model": {
+      "name": "model",
+      "full_name": "krisyotam/model",
+      "html_url": "https://github.com/krisyotam/model",
+      "description": "A convention for giving every AI agent CLI on a machine the same set of facts",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-08-14T05:02:28Z",
+      "topics": []
+    },
+    "cicada3301": {
+      "name": "cicada3301",
+      "full_name": "krisyotam/cicada3301",
+      "html_url": "https://github.com/krisyotam/cicada3301",
+      "description": "Complete Cicada 3301 archive, puzzles, Liber Primus, solver tools, analysis, and documentation",
+      "language": "HTML",
+      "stargazers_count": 37,
+      "forks_count": 6,
+      "updated_at": "2026-11-03T07:19:21Z",
+      "topics": [
+        "archive",
+        "arg",
+        "cicada-3301",
+        "cicada3301",
+        "cryptanalysis",
+        "cryptography",
+        "documentation",
+        "gematria",
+        "internet-mystery",
+        "liber-primus",
+        "pgp",
+        "puzzles",
+        "steganography"
+      ]
+    },
+    "suckless": {
+      "name": "suckless",
+      "full_name": "krisyotam/suckless",
+      "html_url": "https://github.com/krisyotam/suckless",
+      "description": "Kris Yotam suckless software monorepo",
+      "language": "C",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-10-10T20:49:19Z",
+      "topics": []
+    }
+  }
+}

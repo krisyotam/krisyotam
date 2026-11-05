@@ -1,0 +1,11 @@
+{
+  "name": "krisyotam-profile",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-profile.mjs",
+    "check": "node scripts/check-profile.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
